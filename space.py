@@ -4,12 +4,12 @@ import random
 
 sw = 800
 sh = 600
-psx = 370
-psy = 380
+psx = 540
+psy = 540
 esym = 50
 esyma = 150
 esx = 1  # Reduced from 4 to 2
-esy = 1  # Reduced from 4 to 2
+esy = 4  # Reduced from 4 to 2
 bsy = 10
 cd = 27
 
