@@ -8,8 +8,8 @@ psx = 370
 psy = 380
 esym = 50
 esyma = 150
-esx = 1  # Reduced from 4 to 2
-esy = 1  # Reduced from 4 to 2
+esx = 4
+esy = 4
 bsy = 10
 cd = 27
 
@@ -75,10 +75,9 @@ while running :
             running = False
         if event.type == pygame.KEYDOWN:
             if event.key == pygame.K_LEFT:
-                playerxc -= 1  # Reduced from 5 to 2
+                playerxc -= 5
             if event.key == pygame.K_RIGHT:
-                playerxc = 1  # Reduced from 5 to 2
-            
+                playerxc = 5
             if event.key == pygame.K_SPACE:
                 bs = 'ready'
                 bulletx = playerx
